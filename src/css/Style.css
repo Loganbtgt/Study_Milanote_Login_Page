@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container
+{   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 380px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 8px;
+}
+
+.main-container .box
+{
+    height: 100;
+    margin: 40px;
+    
+}
+.main-container .logo
+{   
+    text-align: center;
+    padding-top: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.heading
+{   
+    padding-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.heading h1
+{
+    font-family: var(--font-ui-heading),"Georgia","Times New Roman",Times,serif;
+    font-weight: 700;
+    line-height: 1.375em;
+    font-size: 25px;    
+
+}
+
+.selection
+{   
+    padding-top: 20px;
+    height: 20%;
+    width: 100%;
+}
+
+.formulario
+{   
+    position: relative;
+}
+
+.formulario 
+{
+    margin-bottom: 10px;
+}
+
+.field-info
+{   
+    color: white;
+    margin: 8px;
+}
+
+.formulario-row
+{
+    margin-bottom: 6px;
+}
+
+.form-input
+{   
+    border: 1px solid rgb(153, 153, 153);
+    background: rgb(66, 66, 66);;
+    border-radius: 3px;
+    width: 98%;
+    padding-top: 18px;
+}
+
+.helper
+{
+    margin-top: 8px;
+}
+
+.forgotten-password
+{
+    margin-bottom: 12px;
+}
+
+.login-button
+{    
+    text-align: center;
+    text-decoration: none;
+    transition: background .2s linear,opacity .2s linear;
+    font-family: serif;
+    color: aliceblue;
+    padding: 2px 4px 2px;
+    border: 1px solid;
+    font-size: 1em;
+    border-radius: 0.4rem;
+    background: #f4511c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 98%;
+}
+
+.section
+{
+    width: 100%;
+    width: 100%;
+    border-top: 8px;    
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.input-google
+{   
+    width: 98%;
+    height: 30px;
+}
+
+.input-google {
+    width: 95%;
+    height: 35px; /* Ajuste a altura para que corresponda ao botão de login */
+    border: solid 2px rgb(160, 160, 160);
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--ui-button-floating-secondary-border);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-family: var(--font-default), Helvetica, Arial, sans-serif;
+    font-size: var(--font-size-ui-default);
+    margin-bottom: 10px; /* Ajuste a margem inferior para corresponder ao botão de login */
+    padding: 2px 4px 2px; /* Ajuste o preenchimento para corresponder ao botão de login */
+    background: rgb(75, 75, 75); /* Ajuste a cor de fundo para corresponder ao botão de login */
+    color: aliceblue; /* Ajuste a cor do texto para corresponder ao botão de login */
+}
+
+.button-google {
+    display: flex;
+    align-items: center;
+}
+
+.button-google .logo-container {
+    margin-right: 10px; /* Ajuste o espaçamento entre o ícone e o texto conforme necessário */
+}
+
+.text
+{
+    color: white;
+}
+
+.button-apple {
+    display: flex;
+    align-items: center;
+}
+
+.button-apple .logo-container {
+    margin-right: 10px; /* Ajuste o espaçamento entre o ícone e o texto conforme necessário */
+}
+
+
+
